@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#tops{
+	width:1000px;
+	margin: 0 auto;
+	height:80px;
+	background: lightgray;
+}
+#tops #headers{
+	width:100%;
+	height:100%;
+	background: lightgray;
+}
+#headers h2{
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size:20px;
+	line-height: 80px;
+}
+.cneters{
+	width:1000px;
+	height:auto;
+	margin:0 auto;
+}
+.cneters .main_mag{
+	width:100%;
+	list-style: none;
+	margin:0 auto;
+	height:2rem;
+}
+.cneters .main_mag li{
+	width:33.3%;
+	height:2rem;
+	line-height: 2rem;
+	text-align: center;
+	float: left;
+	background: grey;
+}
+.pay_ways{
+	width:99.9%;
+	height:4rem;
+	margin:0 auto;
+	border:1px solid lightgray;
+}
+.pay_ways h3{
+	display: block;
+	width:100%;
+	height:2rem;
+	line-height: 2rem;
+	font-size: 20px;
+}
+.pay_ways .pay{
+	display: inline-block;
+	width:50%;
+	height:2rem;
+	line-height: 2rem;
+	text-align: center;
+	color:gray;
+	float: left;
+	text-decoration: none;
+}
+.pay_ways .pay img{
+	height:2rem;
+	line-height: 2rem;
+}
